@@ -1,2 +1,48 @@
-# daily-ai-project-2026-11-06-explainable-llm-unit-test-generator
-A privacy‑first web service that automatically writes unit tests for submitted Python functions, ranks them by relevance, and explains each generated test using an LLM. Developers can accept, edit, or reject suggestions, creating a feedback loop that improves future generations. Build-it-yourself AI/ML project.
+# Explainable LLM‑Driven Unit Test Generator
+
+> A privacy‑first web service that automatically writes unit tests for submitted Python functions, ranks them by relevance, and explains each generated test using an LLM. Developers can accept, edit, or reject suggestions, creating a feedback loop that improves future generations.
+
+| Detail | Value |
+|---|---|
+| Project date | 2026-11-06 |
+| Category | AI Developer Tools and Code Intelligence |
+| Difficulty | Intermediate |
+| Estimated effort | 7 days |
+| Status | Starter scaffold; implementation required |
+
+## Start here
+
+1. Read [PROJECT_BRIEF.md](PROJECT_BRIEF.md) completely.
+2. Follow [IMPLEMENTATION_CHECKLIST.md](IMPLEMENTATION_CHECKLIST.md).
+3. Implement your Python application in `src/explainable_llm_unit_test_generator/`.
+4. Add tests in `tests/`.
+5. Measure the evaluation metrics from the project brief.
+6. Record real results rather than invented performance claims.
+
+## Local setup
+
+Python 3.11 or newer is recommended.
+
+Create a virtual environment, activate it for your operating system, then run:
+
+    python -m pip install -e ".[dev]"
+    pytest -q
+
+## Repository contents
+
+- `PROJECT_BRIEF.md` — detailed project specification.
+- `IMPLEMENTATION_CHECKLIST.md` — implementation checklist.
+- `src/explainable_llm_unit_test_generator/` — your application code.
+- `tests/` — automated tests.
+- `.github/workflows/tests.yml` — basic Python CI.
+- `data/` — add appropriate sample data.
+- `artifacts/` — place generated outputs here when appropriate.
+
+This repository contains a specification and a starter scaffold, not a finished
+application. Implement and test the real functionality yourself.
+
+Never commit API tokens, real `.env` files, private datasets, or personal records.
+
+## Daily project controller
+
+[AzamAbbasi123889/agentic-ai-daily-smart-repo-push-using-hugging-face-github-actions-groq-supabase-and-gemini-](https://github.com/AzamAbbasi123889/agentic-ai-daily-smart-repo-push-using-hugging-face-github-actions-groq-supabase-and-gemini-)
